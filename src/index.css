@@ -95,14 +95,16 @@
 @layer components {
   /* Glassmorphism Components */
   .glass-card {
-    @apply backdrop-blur-xl border border-white/8;
+    @apply backdrop-blur-xl;
     background: var(--gradient-glass);
+    border: 1px solid hsl(0 0% 100% / 0.08);
     box-shadow: var(--luxury-shadow);
   }
 
   .glass-nav {
-    @apply backdrop-blur-xl border-b border-white/8;
+    @apply backdrop-blur-xl;
     background: hsl(var(--luxury-bg) / 0.8);
+    border-bottom: 1px solid hsl(0 0% 100% / 0.08);
   }
 
   /* Premium Buttons */
