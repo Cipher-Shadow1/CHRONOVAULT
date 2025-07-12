@@ -18,7 +18,25 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'serif': ['DM Serif Display', 'serif'],
+				'inter': ['Inter', 'sans-serif'],
+				'orbitron': ['Orbitron', 'monospace'],
+			},
 			colors: {
+				'luxury-bg': 'hsl(var(--luxury-bg))',
+				'luxury': 'hsl(var(--luxury-bg))',
+				'luxury-bg-secondary': 'hsl(var(--luxury-bg-secondary))',
+				'luxury-surface': 'hsl(var(--luxury-surface))',
+				'luxury-surface-elevated': 'hsl(var(--luxury-surface-elevated))',
+				'luxury-text': 'hsl(var(--luxury-text-primary))',
+				'luxury-text-primary': 'hsl(var(--luxury-text-primary))',
+				'luxury-text-secondary': 'hsl(var(--luxury-text-secondary))',
+				'luxury-text-muted': 'hsl(var(--luxury-text-muted))',
+				'champagne-gold': 'hsl(var(--champagne-gold))',
+				'satin-silver': 'hsl(var(--satin-silver))',
+				'rose-gold': 'hsl(var(--rose-gold))',
+				'gunmetal': 'hsl(var(--gunmetal))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -62,6 +80,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-luxury': 'var(--gradient-luxury-bg)',
+				'gradient-champagne-silver': 'var(--gradient-champagne-silver)',
+				'gradient-glass': 'var(--gradient-glass)',
+				'gradient-hover': 'var(--gradient-hover)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
